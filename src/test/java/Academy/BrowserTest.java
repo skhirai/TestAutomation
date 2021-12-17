@@ -22,7 +22,7 @@ public class BrowserTest {
 		driver.get("https://skittech.azurewebsites.net/webapp/");
 		String text =driver.findElement(By.cssSelector("h1")).getText();
 		System.out.println(text);
-		Assert.assertTrue(text.equalsIgnoreCase("skittech.com Learning"));
+		Assert.assertTrue(text.equalsIgnoreCase("SKITtech.com Learning"));
 		driver.close();
 	
 		
